@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CUbuntu:300,400,500,700" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="css/nouislider.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/plyr.css">
+    <link rel="stylesheet" href="css/photoswipe.css">
+    <link rel="stylesheet" href="css/default-skin.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/modal.css">
+
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="icon/zend.png" sizes="32x32">
+
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Dmitry Volkov">
+    <title>MYTube - Trang chủ</title>
+
+</head>
+
+<body class="body">
+
+    <!-- header -->
+    <header class="header">
+        <div class="header__wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="header__content">
+                            <!-- header logo -->
+                            <a href="index.html" class="header__logo">
+                                <h1 style="color: white;">My
+                                    <h1 style="color: #CC2027;">Tube</h1>
+                                </h1>
+                            </a>
+                            <!-- end header logo -->
+
+                            <!-- header nav -->
+                            <ul class="header__nav">
+                                <!-- dropdown -->
+                                <li class="header__nav-item">
+                                    <a href="favourite-courses.html" class="header__nav-link header__nav-link--active">Trang chủ</a>
+                                </li>
+                                <!-- end dropdown -->
+
+                                <!-- dropdown -->
+                                <li class="header__nav-item">
+                                    <a href="courses.html" class="header__nav-link">Tất cả khóa học</a>
+                                </li>
+                                <!-- end dropdown -->
+
+                                <li class="header__nav-item">
+                                    <a href="favourite-courses.html" class="header__nav-link">Khóa học yêu thích</a>
+                                </li>
+
+                                <li class="header__nav-item">
+                                    <a href="favourite-vides.html" class="header__nav-link">Video yêu thích</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- home -->
+    <section class="home">
+        <!-- home bg -->
+        <div class="owl-carousel home__bg">
+            <div class="item home__cover" data-bg="img/home/home__bg.jpg"></div>
+            <div class="item home__cover" data-bg="img/home/home__bg2.jpg"></div>
+            <div class="item home__cover" data-bg="img/home/home__bg3.jpg"></div>
+            <div class="item home__cover" data-bg="img/home/home__bg4.jpg"></div>
+        </div>
+        <!-- end home bg -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="home__title"><b>Khóa học</b> Mới nhất</h1>
+
+                    <button class="home__nav home__nav--prev" type="button">
+						<i class="icon ion-ios-arrow-round-back"></i>
+					</button>
+                    <button class="home__nav home__nav--next" type="button">
+						<i class="icon ion-ios-arrow-round-forward"></i>
+					</button>
+                </div>
+
+                <div class="col-12">
+                    <div class="col-md-6 offset-md-6 card__rate loading">
+                        <i class="fa fa-spinner fa-spin load-spinner fa-5x"></i>
+                    </div>
+                    <div class="owl-carousel home__carousel">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end home -->
+
+    <!-- content -->
+    <section class="content">
+        <div class="content__head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- content title -->
+                        <h2 class="content__title">Khóa học Nổi bật</h2>
+                        <!-- end content title -->
+
+                        <!-- content tabs nav -->
+                        <ul class="nav nav-tabs content__tabs" id="content__tabs" role="tablist">
+
+                        </ul>
+                        <!-- end content tabs nav -->
+
+                        <!-- content mobile tabs nav -->
+                        <div class="content__mobile-tabs" id="content__mobile-tabs">
+                            <div class="content__mobile-tabs-btn dropdown-toggle" role="navigation" id="mobile-tabs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <input type="button" value="New items">
+                                <span></span>
+                            </div>
+
+                            <div class="content__mobile-tabs-menu dropdown-menu" aria-labelledby="mobile-tabs">
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item"><a class="nav-link active" id="1-tab" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">Lập trình NextJs</a></li>
+
+                                    <li class="nav-item"><a class="nav-link" id="2-tab" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Lập trình Laravel</a></li>
+
+                                    <li class="nav-item"><a class="nav-link" id="3-tab" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">Lập trình VueJs</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end content mobile tabs nav -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- content tabs -->
+            <div class="tab-content" id="myTabContent">
+                <div class="col-md-6 offset-md-6 card__rate">
+                    <i class="fa fa-spinner fa-spin load-spinner fa-5x"></i>
+                </div>
+            </div>
+            <!-- end content tabs -->
+            <!-- Modal -->
+            <form id="modal-center" class="modal">
+
+            </form>
+        </div>
+    </section>
+    <!-- end content -->
+
+    <!-- expected premiere -->
+    <section class="section section--bg" data-bg="img/section/section.jpg">
+        <div class="container">
+            <div>
+                <!-- section title -->
+                <div class="col-12">
+                    <h2 class="section__title">Video mới nhất</h2>
+                </div>
+                <!-- end section title -->
+                <div class="row newVideo">
+                    <div class="col-md-6 offset-md-6 card__rate">
+                        <i class="fa fa-spinner fa-spin load-spinner fa-5x"></i>
+                    </div>
+                </div>
+                <!-- Block level -->
+
+            </div>
+        </div>
+    </section>
+    <!-- end expected premiere -->
+
+    <!-- end partners -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- footer list -->
+                <div class="col-12 col-md-3">
+                    <h6 class="footer__title">Tải ứng dụng</h6>
+                    <ul class="footer__app">
+                        <li>
+                            <a href="#"><img src="img/Download_on_the_App_Store_Badge.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/google-play-badge.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end footer list -->
+
+                <!-- footer list -->
+                <div class="col-6 col-sm-4 col-md-3">
+                    <h6 class="footer__title">Thông tin</h6>
+                    <ul class="footer__list">
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <!-- end footer list -->
+
+                <!-- footer list -->
+                <div class="col-6 col-sm-4 col-md-3">
+                    <h6 class="footer__title">Chính sách</h6>
+                    <ul class="footer__list">
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                <!-- end footer list -->
+
+                <!-- footer list -->
+                <div class="col-12 col-sm-4 col-md-3">
+                    <h6 class="footer__title">Liên hệ</h6>
+                    <ul class="footer__list">
+                        <li><a href="tel:+18002345678">0327173111</a></li>
+                        <li><a href="mailto:support@moviego.com">Nguyễn Minh Tuyên</a></li>
+                    </ul>
+                    <ul class="footer__social">
+                        <li class="facebook"><a href="https://www.facebook.com/rumngotngaoo/"><i class="icon ion-logo-facebook"></i></a></li>
+                        <li class="instagram"><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
+                        <li class="twitter"><a href="#"><i class="icon ion-logo-twitter"></i></a></li>
+                        <li class="vk"><a href="#"><i class="icon ion-logo-vk"></i></a></li>
+                    </ul>
+                </div>
+                <!-- end footer list -->
+
+                <!-- footer copyright -->
+                <div class="col-12">
+                    <div class="footer__copyright">
+                        <small><a target="_blank" href="https://www.templateshub.net">Nguyễn Minh Tuyên</a></small>
+
+                        <ul>
+                            <li><a href="#">Điều khoản sử dụng</a></li>
+                            <li><a href="#">Chính sách bảo mật</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- end footer copyright -->
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="js/wNumb.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/plyr.min.js"></script>
+    <script src="js/jquery.morelines.min.js"></script>
+    <script src="js/photoswipe.min.js"></script>
+    <script src="js/photoswipe-ui-default.min.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
